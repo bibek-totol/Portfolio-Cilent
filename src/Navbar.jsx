@@ -11,7 +11,7 @@ export default function Navbar() {
         </div>
         <ul
           tabIndex={0}
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 bg-[linear-gradient(60deg,_rgba(33,3,55,1)_0%,_rgba(85,11,86,1)_52%,_rgba(42,10,96,1)_100%)] shadow-sm">
            <li><a className='text-white font-extrabold'>Services</a></li>
         <li><a className='text-white font-extrabold'>Works</a></li>
         <li><a className='text-white font-extrabold'>Resume</a></li>

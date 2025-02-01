@@ -30,7 +30,8 @@ export default function Banner1() {
       </div>
 
       
-      <p className='pookie animate__animated animate__heartBeat animate__infinite animate__slower animate__delay-0.5s font-bold text-[#550b56] [font-size:280px] absolute lg:top-36 lg:left-[480px] z-10'>
+      <p className='pookie animate__animated animate__heartBeat animate__infinite animate__slower animate__delay-0.5s font-bold text-[#550b56] [font-size:280px] absolute lg:top-36 lg:left-[480px] z-10
+      opacity-20 lg:opacity-50'>
         HI
       </p>
 
@@ -40,13 +41,13 @@ export default function Banner1() {
       </div>
 
       <div className=''>
-        <span className='text-[#D7C4FC] [font-size:70px] font-extrabold '>2+ <span className='text-2xl text-[#D7C4FC]  '>Years of Experience</span></span>
+        <span className='text-[#D7C4FC] [font-size:50px] lg:[font-size:90px] font-extrabold '>2+ <span className='text-2xl text-[#D7C4FC]  '>Years of Experience</span></span>
       
       </div>
 
 
       <div className=''>
-        <span className='text-[#D7C4FC] [font-size:70px] font-extrabold '>20+ <span className='text-2xl text-[#D7C4FC]  '>Projects Completed</span></span>
+        <span className='text-[#D7C4FC] [font-size:50px] lg:[font-size:90px] font-extrabold '>20+ <span className='text-2xl text-[#D7C4FC]  '>Projects Completed</span></span>
       
       </div>
 
