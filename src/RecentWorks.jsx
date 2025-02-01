@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 export default function RecentWorks() {
   return (
-    <div className='mt-60'>
+    <div className='mt-32'>
        <div className='text-center'>
       <p className='text-4xl lg:text-6xl font-bold text-[#8953F7] mt-5'>
           My Recent <span className='text-[#B694FA]'>Works</span>
