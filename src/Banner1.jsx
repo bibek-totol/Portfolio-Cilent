@@ -9,13 +9,13 @@ export default function Banner1() {
 
   const fadeInLeft = {
     hidden: { opacity: 0, x: -100 },
-    visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 0.5 } },
+    visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 0.2 } },
   };
 
   // Right section animation (Fade in from right)
   const fadeInRight = {
     hidden: { opacity: 0, x: 100 },
-    visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1.5 } },
+    visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 0.8} },
   };
 
   return (
@@ -49,7 +49,6 @@ export default function Banner1() {
         </motion.div>
 
       
-
       
       <p className='pookie animate__animated animate__heartBeat animate__infinite animate__slower animate__delay-0.5s font-bold text-[#550b56] [font-size:280px] absolute lg:top-36 lg:left-[480px] z-10
       opacity-20 lg:opacity-50'>

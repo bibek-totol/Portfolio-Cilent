@@ -7,6 +7,7 @@ import RecentWorks from './RecentWorks';
 import Experience from './Experience';
 import SKills from './SKills';
 import ContactUs from './ContactUs';
+import Footer from './Footer';
 
 function First() {
   const fadeInFromRight = {
@@ -48,6 +49,7 @@ function First() {
 
       <SKills />
       <ContactUs/>
+      <Footer/>
     </div>
   );
 }

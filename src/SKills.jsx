@@ -30,14 +30,14 @@ export default function SKills() {
       </p>
      
 
-      <Marquee pauseOnHover={true}  speed={150} direction='right' delay={1}>
+      <Marquee pauseOnHover={false}  speed={150} direction='right' delay={1}>
       <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-11 gap-20 mt-14 px-5">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="bg-[#1a0e2d] hover:bg-[#3e717d] transition duration-300 p-8 rounded-2xl flex flex-col items-center text-white"
+            className="bg-[#2d1c4b] hover:bg-[#3e717d] transition duration-300 p-8 rounded-2xl flex flex-col items-center text-white"
           >
-            <img src={skill.image} alt={skill.name} className="w-12 h-12 mb-3" />
+            <img src={skill.image} alt={skill.name} className="w-14 h-14 mb-3" />
             <p className="text-xl font-bold">{skill.percentage}</p>
             <p className={`${skill.color} mt-2 font-medium`}>{skill.name}</p>
           </div>

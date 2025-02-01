@@ -9,38 +9,42 @@ export default function Experience() {
       <p className='text-4xl lg:text-5xl font-bold text-[#9463F8] mt-5'>
       <span><AiTwotoneIdcard /></span> My Experience
         </p>
-        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12'>
-        <p className='text-3xl font-bold text-[#9065E5]'>2022-23</p>
-        <p className='text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
-        <p className='text-1xl font-bold text-[#CCBAEF]'>Leetcode,Codeforces,HackerRank,GeeksForGeeks,Coding Ninjas(250)problems</p>
+        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
+        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2022-23</p>
+        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
+        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Leetcode,Codeforces,HackerRank,GeeksForGeeks,
+        <br/>Coding Ninjas(250)problems</p>
 
         </div>
 
 
 
-        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-4'>
-        <p className='text-3xl font-bold text-[#9065E5]'>2022-23</p>
-        <p className='text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
-        <p className='text-1xl font-bold text-[#CCBAEF]'>Leetcode,Codeforces,HackerRank,GeeksForGeeks,Coding Ninjas(250)problems</p>
+        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
+        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2022-23</p>
+        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
+        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Leetcode,Codeforces,HackerRank,GeeksForGeeks,
+        <br/>Coding Ninjas(250)problems</p>
 
         </div>
 
 
 
 
-        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-4'>
-        <p className='text-3xl font-bold text-[#9065E5]'>2022-23</p>
-        <p className='text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
-        <p className='text-1xl font-bold text-[#CCBAEF]'>Leetcode,Codeforces,HackerRank,GeeksForGeeks,Coding Ninjas(250)problems</p>
+        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
+        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2022-23</p>
+        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
+        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Leetcode,Codeforces,HackerRank,GeeksForGeeks,
+        <br/>Coding Ninjas(250)problems</p>
 
         </div>
 
 
 
-        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-4'>
-        <p className='text-3xl font-bold text-[#9065E5]'>2022-23</p>
-        <p className='text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
-        <p className='text-1xl font-bold text-[#CCBAEF]'>Leetcode,Codeforces,HackerRank,GeeksForGeeks,Coding Ninjas(250)problems</p>
+        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
+        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2022-23</p>
+        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
+        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Leetcode,Codeforces,HackerRank,GeeksForGeeks,
+        <br/>Coding Ninjas(250)problems</p>
 
         </div>
 
@@ -55,38 +59,42 @@ export default function Experience() {
       <span><AiOutlineRead /></span>
            My Education
         </p>
-        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12'>
-        <p className='text-3xl font-bold text-[#9065E5]'>2022-23</p>
-        <p className='text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
-        <p className='text-1xl font-bold text-[#CCBAEF]'>Leetcode,Codeforces,HackerRank,GeeksForGeeks,Coding Ninjas(250)problems</p>
+        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
+        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2022-23</p>
+        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
+        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Leetcode,Codeforces,HackerRank,GeeksForGeeks,
+        <br/>Coding Ninjas(250)problems</p>
 
         </div>
 
 
 
-        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-4'>
-        <p className='text-3xl font-bold text-[#9065E5]'>2022-23</p>
-        <p className='text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
-        <p className='text-1xl font-bold text-[#CCBAEF]'>Leetcode,Codeforces,HackerRank,GeeksForGeeks,Coding Ninjas(250)problems</p>
+        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
+        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2022-23</p>
+        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
+        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Leetcode,Codeforces,HackerRank,GeeksForGeeks,
+        <br/>Coding Ninjas(250)problems</p>
 
         </div>
 
 
 
 
-        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-4'>
-        <p className='text-3xl font-bold text-[#9065E5]'>2022-23</p>
-        <p className='text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
-        <p className='text-1xl font-bold text-[#CCBAEF]'>Leetcode,Codeforces,HackerRank,GeeksForGeeks,Coding Ninjas(250)problems</p>
+        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
+        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2022-23</p>
+        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
+        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Leetcode,Codeforces,HackerRank,GeeksForGeeks,
+        <br/>Coding Ninjas(250)problems</p>
 
         </div>
 
 
 
-        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-4'>
-        <p className='text-3xl font-bold text-[#9065E5]'>2022-23</p>
-        <p className='text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
-        <p className='text-1xl font-bold text-[#CCBAEF]'>Leetcode,Codeforces,HackerRank,GeeksForGeeks,Coding Ninjas(250)problems</p>
+        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
+        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2022-23</p>
+        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Problem Solving</p>
+        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Leetcode,Codeforces,HackerRank,GeeksForGeeks,
+        <br/>Coding Ninjas(250)problems</p>
 
         </div>
 
