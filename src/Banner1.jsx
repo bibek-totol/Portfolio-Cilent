@@ -4,7 +4,7 @@ import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import im2 from './assets/Screenshot_4-Photoroom.png'
 import './App.css'
 import { motion } from 'framer-motion';
-import BibekCV from './assets/Bibek CV(2).pdf';
+import BibekCV from './assets/Bibek CV(2.0).pdf';
 
 export default function Banner1() {
 

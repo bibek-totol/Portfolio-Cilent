@@ -4,7 +4,7 @@ import { AiOutlineRead } from "react-icons/ai";
 
 export default function Experience() {
   return (
-    <div className='mt-28 h-full py-3 grid grid-cols-1 lg:grid-cols-2 justify-center gap-x-20 '>
+    <div className='mt-16 h-full py-3 grid grid-cols-1 lg:grid-cols-2 justify-center gap-x-20 '>
       <div className=''>
       <p className='text-4xl lg:text-5xl font-bold text-[#9463F8] mt-5'>
       <span><AiTwotoneIdcard /></span> My Experience
