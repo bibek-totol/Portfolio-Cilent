@@ -23,7 +23,7 @@ const ContactUs = () => {
     setStatus("Sending...");
 
     try {
-      const response = await fetch("http://localhost:5000/send-email", {
+      const response = await fetch("https://bibek-portfolio-server.vercel.app/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
