@@ -8,7 +8,7 @@ import Experience from "./Experience";
 import SKills from "./SKills";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
-import ProfileDetails from "./ProfileDetails1";
+import  "./App.css";
 
 function First() {
   const fadeInFromRight = {
@@ -17,7 +17,10 @@ function First() {
   };
 
   return (
-    <div className="mx-auto max-w-[1440px] bg-[linear-gradient(60deg,_rgba(33,3,55,1)_0%,_rgba(85,11,86,1)_52%,_rgba(42,10,96,1)_100%)] h-full">
+
+
+    
+    <div className="max-w-screen-xl mx-auto overflow-x-hidden bg-[linear-gradient(60deg,_rgba(33,3,55,1)_0%,_rgba(85,11,86,1)_52%,_rgba(42,10,96,1)_100%)] h-full">
       <Navbar />
       <Banner1 />
 

@@ -14,10 +14,20 @@
   }
 
 
-  body, html {
+  /* body, html {
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    width: 100%;
+  } */
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
+
+  /* html{
+    scroll-behavior: smooth;
+  } */
 
   .pookie3{
     /* From https://css.glass */
@@ -27,6 +37,11 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(2.2px);
 -webkit-backdrop-filter: blur(2.2px);
 border: 1px solid rgba(128, 5, 107, 0.81);
+  }
+
+
+  * {
+    box-sizing: border-box;
   }
 
 

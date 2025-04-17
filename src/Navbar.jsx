@@ -12,11 +12,11 @@ export default function Navbar() {
         <ul
           tabIndex={0}
           class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 bg-[linear-gradient(60deg,_rgba(33,3,55,1)_0%,_rgba(85,11,86,1)_52%,_rgba(42,10,96,1)_100%)] shadow-sm">
-           <li><a href='#services'  className='text-white font-extrabold'>Services</a></li>
-        <li><a href='#works' className='text-white font-extrabold'>Works</a></li>
-        <li><a href='#education' className='text-white font-extrabold'>Education</a></li>
-        <li><a href='#skills' className='text-white font-extrabold'>Skills</a></li>
-        <li><a  href='#contact' className='text-white font-extrabold'>Contact</a></li>
+           <li><a   className='text-white font-extrabold'>Services</a></li>
+        <li><a className='text-white font-extrabold'>Works</a></li>
+        <li><a  className='text-white font-extrabold'>Education</a></li>
+        <li><a className='text-white font-extrabold'>Skills</a></li>
+        <li><a   className='text-white font-extrabold'>Contact</a></li>
         </ul>
       </div>
       <a className="btn btn-ghost text-xl text-white">
@@ -26,11 +26,11 @@ export default function Navbar() {
     </div>
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
-        <li><a href='#services' className='text-white font-extrabold '>Services</a></li>
-        <li><a href='#works' className='text-white font-extrabold'>Works</a></li>
-        <li><a  href='#education' className='text-white font-extrabold'>Education</a></li>
-        <li><a href='#skills' className='text-white font-extrabold'>Skills</a></li>
-        <li><a href='#contact' className='text-white font-extrabold'>Contact</a></li>
+        <li><a className='text-white font-extrabold '>Services</a></li>
+        <li><a  className='text-white font-extrabold'>Works</a></li>
+        <li><a   className='text-white font-extrabold'>Education</a></li>
+        <li><a  className='text-white font-extrabold'>Skills</a></li>
+        <li><a  className='text-white font-extrabold'>Contact</a></li>
 
       </ul>
     </div>
