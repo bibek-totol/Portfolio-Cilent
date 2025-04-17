@@ -6,6 +6,7 @@ import "./index.css";
 import ProfileDetails1 from "./ProfileDetails1.jsx";
 import ProfileDetails2 from "./ProfileDetails2.jsx";
 import ProfileDetails3 from "./ProfileDetails3.jsx";
+import ProfileDetails4 from "./ProfileDetails4.jsx";
 
 const root = document.getElementById("root");
 
@@ -16,6 +17,8 @@ ReactDOM.createRoot(root).render(
       <Route path="/details1" element={<ProfileDetails1 />} />
       <Route path="/details2" element={<ProfileDetails2 />} />
       <Route path="/details3" element={<ProfileDetails3/>} />
+      <Route path="/details4" element={<ProfileDetails4/>} />
+
 
     </Routes>
   </BrowserRouter>

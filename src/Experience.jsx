@@ -88,13 +88,14 @@ export default function Experience() {
 
 
 
-
-        {/* <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
-        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2012-18</p>
-        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Secondary School Certificate in Science</p>
-        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Narayanganj Ideal School </p>
+        <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
+        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2020-24</p>
+        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Bachelor of Science in Computer Science and Engineering</p>
+        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Bangladesh Army University of Engineering and Technology</p>
 
         </div>
+
+
 
 
 
@@ -103,17 +104,23 @@ export default function Experience() {
         <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Higher Secondary Certificate in Science </p>
         <p className='text-1xl  font-bold text-[#CCBAEF]  '>Government Tolaram College</p>
 
-        </div> */}
-
-
-
+        </div>
 
         <div className='bg-[#301649] hover:bg-[#834EF0] transition duration-300 rounded-r-full flex flex-col gap-y-3 p-5 mt-12 '>
-        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2020-24</p>
-        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Bachelor of Science in Computer Science and Engineering</p>
-        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Bangladesh Army University of Engineering and Technology</p>
+        <p className='text-2xl lg:text-3xl font-bold text-[#9065E5]'>2012-18</p>
+        <p className='text-3xl lg:text-4xl font-bold text-[#CCBAEF]'>Secondary School Certificate in Science</p>
+        <p className='text-1xl  font-bold text-[#CCBAEF]  '>Narayanganj Ideal School </p>
 
         </div>
+
+
+
+       
+
+
+
+
+       
 
 
 
