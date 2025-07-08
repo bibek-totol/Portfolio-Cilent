@@ -106,7 +106,7 @@ const ContactUs = () => {
               <FaPhoneAlt className="text-white text-xl" />
             </div>
             <div>
-              <p className="text-gray-400">Phone</p>
+              <p className="text-gray-400">Phone/WhatsApp</p>
               <p className="text-lg font-semibold">+8801776569120</p>
             </div>
           </div>

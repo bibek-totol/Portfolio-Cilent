@@ -1,81 +1,121 @@
-import React from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
-import im1 from './assets/Screenshot_58.png';
-import im2 from './assets/Screenshot_14.png';
-import im3 from './assets/Screenshot_75.png';
-import im4 from './assets/Screenshot_2.png';
-import './App.css';
-import Zoom from 'react-reveal/Zoom';
+import React from "react";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
+import im1 from "./assets/Screenshot_58.png";
+import im2 from "./assets/Screenshot_14.png";
+import im3 from "./assets/Screenshot_75.png";
+import im4 from "./assets/Screenshot_2.png";
+import Zoom from "react-reveal/Zoom";
 import { Link } from "react-router";
 
+
+
+
+const ProjectCard = ({ img, link, desc, to }) => (
+  <Zoom>
+    <div className="bg-white/10 backdrop-blur-md border border-white/10 shadow-xl hover:shadow-purple-500/40 transition-all duration-300 rounded-2xl overflow-hidden p-5">
+      <img
+        src={img}
+        alt="Project Preview"
+        className="w-full h-60 object-cover rounded-xl"
+      />
+      <div className="mt-4 space-y-3">
+        <a
+          className="text-cyan-300 font-bold underline text-sm sm:text-base"
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live Link
+        </a>
+        <p className="text-white/80 text-sm sm:text-base">{desc}</p>
+        <div className="flex justify-end">
+          <Link to={to}>
+            <button className="px-4 py-2 rounded-xl bg-gradient-to-r from-[#9463F8] to-[#7d4edc] text-white text-sm sm:text-base hover:brightness-110 transition">
+              View Details
+            </button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  </Zoom>
+);
+
+
 export default function RecentWorks() {
+  const mernProjects = [
+    {
+      img: im1,
+      link: "https://bibek-iems-portal.netlify.app/",
+      desc:
+        "IEMS: Collaborative Study Platform connects students, tutors, and administrators to streamline scheduling, resource sharing, and management.",
+      to: "/details1",
+    },
+    {
+      img: im2,
+      link: "https://unruly-destruction.surge.sh/",
+      desc:
+        "GameCritics-Hub2 is a game review platform with user ratings, recommendations, and real-time news & updates for gamers.",
+      to: "/details2",
+    },
+    {
+      img: im3,
+      link: "https://tech-tales2025.netlify.app/",
+      desc:
+        "Tech-Tales is a feature-rich blogging app with comments, calendar, and wishlist integration to enhance writing experiences.",
+      to: "/details3",
+    },
+  ];
+
+  const nextProjects = [
+    {
+      img: im4,
+      link: "https://schedule-processing-next-js.vercel.app/",
+      desc:
+        "Schedule Processing is a web application used for managing and scheduling events and tasks with secure role-based access and notifications.",
+      to: "/details4",
+    },
+  ];
+
+  
   return (
-    <div className='mt-24 px-4 sm:px-6 lg:px-16'>
-      <div className='text-center'>
-        <p className='text-3xl sm:text-4xl lg:text-6xl font-bold text-[#8953F7] mt-5'>
-          My Recent <span className='text-[#B694FA]'>Works</span>
-        </p>
-        <p className='text-[#B694FA] font-semibold max-w-2xl mx-auto mt-4 text-sm sm:text-base'>
+    <section className="mt-16 rounded-4xl bg-gradient-to-b from-[#3c005f] to-[#2a0045] py-20 px-6 sm:px-10 lg:px-24">
+
+      <div className="max-w-7xl mx-auto text-center">
+        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#B694FA]">
+          My Recent <span className="text-[#9463F8]">Works</span>
+        </h2>
+        <p className="text-[#B694FA] font-medium max-w-2xl mx-auto mt-4 text-sm sm:text-base">
           We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.
         </p>
       </div>
 
       <Tabs>
-        <TabList className='flex flex-wrap justify-center gap-3 text-sm sm:text-base lg:text-xl w-full lg:w-2/3 mx-auto mt-10 border text-amber-50 font-bold bg-black p-3 rounded-full'>
-          <Tab>MERN Stack Projects</Tab>
-          <Tab>Next.js Projects</Tab>
+        <TabList className="flex flex-wrap justify-center gap-4 text-sm sm:text-base lg:text-lg mt-12 mb-6 bg-black/30 rounded-full p-3 font-semibold text-white">
+          <Tab className="px-4 py-2 rounded-full cursor-pointer hover:bg-[#9463F8]/20 focus:outline-none focus:bg-[#9463F8]/30">
+            MERN Stack Projects
+          </Tab>
+          <Tab className="px-4 py-2 rounded-full cursor-pointer hover:bg-[#9463F8]/20 focus:outline-none focus:bg-[#9463F8]/30">
+            Next.js Projects
+          </Tab>
         </TabList>
 
-        {/* MERN Projects */}
-        <TabPanel className='mt-10'>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 justify-center items-start'>
-
-            {[{ img: im1, link: "https://bibek-iems-portal.netlify.app/", desc: "IEMS: Collaborative Study Platform connects students, tutors, and administrators to streamline scheduling, resource sharing, and management.", to: "/details1" },
-              { img: im2, link: "https://unruly-destruction.surge.sh/", desc: "GameCritics-Hub2 is a game review platform with user ratings, recommendations, and real-time news & updates for gamers.", to: "/details2" },
-              { img: im3, link: "https://tech-tales2025.netlify.app/", desc: "Tech-Tales is a feature-rich blogging app with comments, calendar, and wishlist integration to enhance writing experiences.", to: "/details3" }
-            ].map((proj, idx) => (
-              <Zoom key={idx}>
-                <div className="bg-gradient-to-br from-purple-700 via-fuchsia-600 to-black shadow-lg rounded-2xl overflow-hidden p-5 hover:scale-105 transition duration-300">
-                  <img src={proj.img} alt="Project Preview" className="w-full h-60 object-cover rounded-lg" />
-                  <div className="mt-4 space-y-2">
-                    <a className='text-blue-300 font-bold underline text-sm sm:text-lg' href={proj.link} target="_blank" rel="noopener noreferrer">Live Link</a>
-                    <p className='text-fuchsia-300 font-medium text-sm sm:text-base'>{proj.desc}</p>
-                    <div className="flex justify-end mt-3">
-                      <Link to={proj.to}>
-                        <button className="btn btn-primary px-4 py-2 rounded bg-[#9463F8] text-white text-sm sm:text-base hover:bg-[#7d4edc] transition">View Details</button>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </Zoom>
+        <TabPanel>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-8">
+            {mernProjects.map((proj, idx) => (
+              <ProjectCard key={idx} {...proj} />
             ))}
-
           </div>
         </TabPanel>
 
-        {/* Next.js Projects */}
-        <TabPanel className='mt-10'>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 justify-center items-start'>
-            <Zoom>
-              <div className="bg-gradient-to-br from-purple-700 via-fuchsia-600 to-black shadow-lg rounded-2xl overflow-hidden p-5 hover:scale-105 transition duration-300">
-                <img src={im4} alt="Schedule Processing" className="w-full h-60 object-cover rounded-lg" />
-                <div className="mt-4 space-y-2">
-                  <a className='text-blue-300 font-bold underline text-sm sm:text-lg' href="https://schedule-processing-next-js.vercel.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
-                  <p className='text-fuchsia-300 font-medium text-sm sm:text-base'>
-                    <span className='font-bold'>Schedule Processing</span> is a web application used for managing and scheduling events and tasks with secure role-based access and notifications.
-                  </p>
-                  <div className="flex justify-end mt-3">
-                    <Link to="/details4">
-                      <button className="btn btn-primary px-4 py-2 rounded bg-[#9463F8] text-white text-sm sm:text-base hover:bg-[#7d4edc] transition">View Details</button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </Zoom>
+        <TabPanel>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            {nextProjects.map((proj, idx) => (
+              <ProjectCard key={idx} {...proj} />
+            ))}
           </div>
         </TabPanel>
       </Tabs>
-    </div>
+    </section>
   );
 }

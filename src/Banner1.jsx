@@ -60,10 +60,7 @@ export default function Banner1() {
           </div>
         </motion.div>
 
-        {/* Big "HI" background text */}
-        <p className='pookie absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-[#550b56] font-bold text-[100px] sm:text-[180px] lg:text-[280px] opacity-10 lg:opacity-50 z-0'>
-          HI
-        </p>
+        
 
         {/* Right Section */}
         <motion.div
@@ -73,7 +70,7 @@ export default function Banner1() {
           variants={fadeInRight}
           className='mx-auto mt-10 lg:mt-0 z-30'
         >
-          <img className="rounded-3xl border-4 border-[#8953F7] h-[220px] w-[220px] sm:h-[300px] sm:w-[300px] lg:h-[400px] lg:w-[400px]" src={im2} alt="Profile" />
+          <img className="rounded-3xl border-8 border-cyan-400 h-auto w-auto" src={im2} alt="Profile" />
         </motion.div>
       </div>
 
