@@ -52,7 +52,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="mt-16">
+    <div className="mt-8">
       <div>
         <h2 className="text-4xl lg:text-6xl font-bold text-white text-center">
           About <span className="text-purple-400">Me</span>
@@ -61,7 +61,7 @@ const ContactUs = () => {
           As a junior web developer, my journey has been filled with challenges and growth...
         </p>
       </div>
-      <div className="min-h-screen flex justify-center items-center text-white px-6 mt-10">
+      <div className=" flex justify-center items-center text-white px-6 mt-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-4 rounded-lg max-w-6xl w-full">
           {/* Left Side - Form */}
           <div className="bg-[#0b071c] p-14 rounded-lg">

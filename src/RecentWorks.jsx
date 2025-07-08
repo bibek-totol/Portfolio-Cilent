@@ -1,10 +1,10 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import im1 from "./assets/Screenshot_58.png";
-import im2 from "./assets/Screenshot_14.png";
-import im3 from "./assets/Screenshot_75.png";
-import im4 from "./assets/Screenshot_2.png";
+import im1 from "./assets/Screenshot_58.webp";
+import im2 from "./assets/Screenshot_14.webp";
+import im3 from "./assets/Screenshot_75.webp";
+import im4 from "./assets/Screenshot_2.webp";
 import Zoom from "react-reveal/Zoom";
 import { Link } from "react-router";
 

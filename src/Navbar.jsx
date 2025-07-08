@@ -1,6 +1,7 @@
 import React from 'react'
 import ima1 from './assets/logo.webp'
 
+
 export default function Navbar() {
   return (
     <div className="navbar  bg-[linear-gradient(60deg,_rgba(33,3,55,1)_0%,_rgba(85,11,86,1)_52%,_rgba(42,10,96,1)_100%)] shadow-sm">
@@ -35,7 +36,7 @@ export default function Navbar() {
       </ul>
     </div>
     <div className="navbar-end">
-      <button className='btn bg-[linear-gradient(30deg,_rgba(105,40,204,1)_0%,_rgba(157,78,166,1)_51%,_rgba(30,5,36,1)_100%)] hover:bg-[linear-gradient(-30deg,_rgba(30,5,36,1)_0%,_rgba(157,78,166,1)_51%,_rgba(105,40,204,1)_100%)] transition-all duration-800 p-6 text-white text-center rounded-full
+      <button className='border-2 border-cyan-400 btn bg-[linear-gradient(30deg,_rgba(105,40,204,1)_0%,_rgba(157,78,166,1)_51%,_rgba(30,5,36,1)_100%)] hover:bg-[linear-gradient(-30deg,_rgba(30,5,36,1)_0%,_rgba(157,78,166,1)_51%,_rgba(105,40,204,1)_100%)] transition-all duration-800 p-6 text-white text-center rounded-full
       '>Hire Me</button>
     </div>
   </div>

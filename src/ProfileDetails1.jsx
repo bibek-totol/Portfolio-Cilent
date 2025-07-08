@@ -1,12 +1,28 @@
-import React from "react";
-import im1 from './assets/Screenshot_58.png'
+import React,{Suspense} from "react";
+import im1 from './assets/Screenshot_58.webp'
 import './App.css'
 import { Link } from "react-router";
+import video1 from './assets/1.mp4'
 
 const ProfileDetails1 = () => {
   return (
-    <div className="bg-[linear-gradient(60deg,_rgba(33,3,55,1)_0%,_rgba(85,11,86,1)_52%,_rgba(42,10,96,1)_100%)] text-white min-h-screen p-6">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="relative font-extrabold  text-white min-h-screen p-6">
+    <div className="absolute w-full h-[1500px] md:h-[800px] lg:h-[1000px] bg-[#00000074] z-1 top-0 left-0 ">
+    <video 
+    className='w-full h-[1500px] md:h-[800px] lg:h-[1000px] object-fill absolute z-0 top-0 left-0'
+    autoPlay
+    loop
+    muted
+  playsInline
+  preload="metadata"
+    src= {video1}
+    type="video/mp4"
+    
+    />
+    </div>
+
+
+    <div className="absolute z-10 grid grid-cols-1 md:grid-cols-2 p-4 gap-4">
 
 
 
@@ -23,9 +39,7 @@ const ProfileDetails1 = () => {
         <h1 className="text-4xl font-bold text-white">
         IEMS: Collaborative <span className="text-purple-400">Study Platform </span>
         </h1>
-        <p className="text-gray-400 mt-2">
-        IEMS: Collaborative Study Platform connects students, tutors, and administrators to streamline study session scheduling, resource sharing, and user management. This platform enhances collaboration and improves access to study materials for a more effective educational experience.
-        </p>
+        
       </div>
 
       {/* Stats Section */}
@@ -41,9 +55,10 @@ const ProfileDetails1 = () => {
       </div>
 
       {/* CTA Buttons */}
-      <div className="mt-6">
+      <div className="mt-6 grid grid-cols-2 md:grid-cols-3 p-2 gap-4">
         <a href="https://bibek-iems-portal.netlify.app/" className="bg-blue-600 px-6 py-2 rounded-lg mr-4">Live Demo</a>
-        <a href="https://github.com/bibekbowmick2-2/IEMS-Client-" className="bg-purple-600 px-6 py-2 rounded-lg">GitHub(Client)</a>
+        <a href="https://github.com/bibek-totol/IEMS-Client" className="bg-purple-600 px-6 py-2 rounded-lg">GitHub(Client)</a>
+        <a href="https://github.com/bibek-totol/IEMS-Server" className="bg-purple-600 px-6 py-2 rounded-lg">GitHub(Server)</a>
       </div>
 
       {/* Technologies Used */}
@@ -65,23 +80,11 @@ const ProfileDetails1 = () => {
 
       {/* Key Features */}
       <div className="mt-8">
-      <img className=" rounded-lg" src={im1}/>
-        <h3 className="text-lg font-semibold">Key Features</h3>
+      <Suspense fallback={<div className="h-64 bg-gray-700 rounded-lg animate-pulse"></div>}>
+              <img className="rounded-lg w-full" src={im1} alt="Project Screenshot" loading="lazy" />
+            </Suspense>
+        <h3 className="text-lg  mt-4">Key Features</h3>
         <ul className="mt-2 space-y-2">
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
 
 
           <li className="pookie3 p-3 rounded-lg">🔹  User Authentication & Social Login</li>

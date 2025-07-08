@@ -1,20 +1,22 @@
 import React from 'react'
+import footerim from './assets/1.jpg'
 
 export default function Footer() {
   return (
-    <div>
-      
+    <div className='relative font-bold'>
+      <img src={footerim} className='w-full h-[300px] object-cover absolute z-10 top-0 left-0' alt="" /> 
+     
 
-
-
+     
       <footer className="footer footer-center  bg-[linear-gradient(60deg,_rgba(33,3,55,1)_0%,_rgba(85,11,86,1)_52%,_rgba(42,10,96,1)_100%)] text-[#FFFFFF] rounded p-10 flex flex-col ">
-  <nav className="grid grid-flow-col gap-4">
+      
+  <nav className="grid grid-flow-col gap-4  z-50">
     <a className="link link-hover">About us</a>
     <a className="link link-hover">Contact</a>
     <a className="link link-hover">Jobs</a>
     <a className="link link-hover">Press kit</a>
   </nav>
-  <nav>
+  <nav className='z-50'>
     <div className="grid grid-flow-col gap-4">
       <a>
         <svg
@@ -51,7 +53,7 @@ export default function Footer() {
       </a>
     </div>
   </nav>
-  <aside>
+  <aside className='z-50'>
     <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
   </aside>
 </footer>

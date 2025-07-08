@@ -1,16 +1,29 @@
-import React from "react";
-import im4 from './assets/Screenshot_2.png'
+import React, { Suspense } from "react";
+import im1 from './assets/Screenshot_2.webp'
 import './App.css'
 import { Link } from "react-router";
+import video1 from './assets/1.mp4';
 
 const ProfileDetails4 = () => {
   return (
-    <div className="bg-[linear-gradient(60deg,_rgba(33,3,55,1)_0%,_rgba(85,11,86,1)_52%,_rgba(42,10,96,1)_100%)] text-white min-h-screen p-6">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="relative font-extrabold   text-white min-h-screen p-6">
+    <div className="absolute w-full h-[2200px] md:h-[900px] lg:h-[1300px] bg-[#00000074] z-1 top-0 left-0 ">
+    <video 
+    className='w-full h-[2200px] md:h-[900px] lg:h-[1300px] object-cover absolute z-0 top-0 left-0'
+    autoPlay
+    loop
+    muted
+  playsInline
+  preload="metadata"
+    src= {video1}
+    type="video/mp4"
+    
+    />
+    </div>
 
 
 
-
+    <div className="absolute z-10 grid grid-cols-1 md:grid-cols-2 p-4  gap-4">
     <div>
       {/* Header */}
       <div className="flex items-center space-x-4">
@@ -23,13 +36,7 @@ const ProfileDetails4 = () => {
         <h1 className="text-4xl font-bold text-white">
         Schedule Pro: <span className="text-purple-400">A Schedule Management Application </span>
         </h1>
-        <p className="text-gray-400 mt-6">
-        The Schedule Processing Application (Schedule Pro) is a web-based scheduling and task 
-management platform designed to streamline organizational workflows. It allows administrators 
-to manage tasks, assign them to employees, organize events, and track progress through interactive 
-dashboards and calendar views. The platform includes robust user authentication, real-time 
-notifications, and an integrated AI assistant for employee support.
-        </p>
+       
       </div>
 
       {/* Stats Section */}
@@ -47,7 +54,7 @@ notifications, and an integrated AI assistant for employee support.
       {/* CTA Buttons */}
       <div className="mt-6">
         <a href="https://schedule-processing-next-js.vercel.app/" className="bg-blue-600 px-6 py-2 rounded-lg mr-4">Live Demo</a>
-        <a href="https://github.com/bibekbowmick2-2/Schedule-Processing-Next-js-" className="bg-purple-600 px-6 py-2 rounded-lg">GitHub(Client and Server)</a>
+        <a href="https://github.com/bibek-totol/Schedule-Processing-Next-js-" className="bg-purple-600 px-6 py-2 rounded-lg">GitHub(Client and Server)</a>
       </div>
 
       {/* Technologies Used */}
@@ -69,22 +76,13 @@ notifications, and an integrated AI assistant for employee support.
 
       {/* Key Features */}
       <div className="mt-8">
-      <img className=" rounded-lg" src={im4}/>
-        <h3 className="text-lg font-semibold">Key Features</h3>
+      <Suspense fallback={<div className="h-64 bg-gray-700 rounded-lg animate-pulse"></div>}>
+              <img className="rounded-lg w-full" src={im1} alt="Project Screenshot" loading="lazy" />
+            </Suspense>
+        <h3 className="text-lg  mt-2">Key Features</h3>
         <ul className="mt-2 space-y-2">
 
        
-
-
-
-
-
-
-
-
-
-
-
 
 
 
